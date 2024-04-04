@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16317 MB
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16348 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/LAB05-20/Desktop/juego 1 github/primer-juego-taller-3
+C:/Users/LAB03-14/Desktop/clon juego1 T3/primer-juego-taller-3
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-53288
-Successfully changed project path to: C:/Users/LAB05-20/Desktop/juego 1 github/primer-juego-taller-3
-C:/Users/LAB05-20/Desktop/juego 1 github/primer-juego-taller-3
+51238
+Successfully changed project path to: C:/Users/LAB03-14/Desktop/clon juego1 T3/primer-juego-taller-3
+C:/Users/LAB03-14/Desktop/clon juego1 T3/primer-juego-taller-3
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,74 +49,75 @@ C:/Users/LAB05-20/Desktop/juego 1 github/primer-juego-taller-3
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4292] Host "[IP] 100.0.0.115 [Port] 0 [Flags] 2 [Guid] 492864122 [EditorId] 492864122 [Version] 1048832 [Id] WindowsEditor(7,LAB05-20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6868] Host "[IP] 100.0.0.85 [Port] 0 [Flags] 2 [Guid] 4037033283 [EditorId] 4037033283 [Version] 1048832 [Id] WindowsEditor(7,LAB03-14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4292] Host "[IP] 100.0.0.115 [Port] 0 [Flags] 2 [Guid] 492864122 [EditorId] 492864122 [Version] 1048832 [Id] WindowsEditor(7,LAB05-20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6868] Host "[IP] 100.0.0.85 [Port] 0 [Flags] 2 [Guid] 4037033283 [EditorId] 4037033283 [Version] 1048832 [Id] WindowsEditor(7,LAB03-14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 16.49 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 22.82 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2022.3.19f1 (244b723c30a6)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/LAB05-20/Desktop/juego 1 github/primer-juego-taller-3/Assets
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/LAB03-14/Desktop/clon juego1 T3/primer-juego-taller-3/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f0a)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K600 (ID=0xffa)
     Vendor:   NVIDIA
-    VRAM:     3948 MB
-    Driver:   31.0.15.3623
+    VRAM:     973 MB
+    Driver:   10.18.13.5330
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013652 seconds.
-- Loaded All Assemblies, in  0.395 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016510 seconds.
+- Loaded All Assemblies, in  0.526 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 222 ms
+Android Extension - Scanning For ADB Devices 442 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.577 seconds
-Domain Reload Profiling: 971ms
-	BeginReloadAssembly (105ms)
+- Finished resetting the current domain, in  1.188 seconds
+Domain Reload Profiling: 1711ms
+	BeginReloadAssembly (169ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (103ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (196ms)
+		LoadAssemblies (166ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (177ms)
-			TypeCache.Refresh (176ms)
-				TypeCache.ScanAssembly (161ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (171ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (578ms)
+	FinalizeReload (1188ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (521ms)
+		SetupLoadedEditorAssemblies (1092ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (355ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (818ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (114ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,8 +125,8 @@ Domain Reload Profiling: 971ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.662 seconds
-Refreshing native plugins compatible for Editor in 4.62 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.104 seconds
+Refreshing native plugins compatible for Editor in 8.14 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -135,47 +136,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.699 seconds
-Domain Reload Profiling: 1356ms
-	BeginReloadAssembly (133ms)
+- Finished resetting the current domain, in  0.969 seconds
+Domain Reload Profiling: 2066ms
+	BeginReloadAssembly (207ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (446ms)
-		LoadAssemblies (311ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (765ms)
+		LoadAssemblies (539ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (211ms)
-			TypeCache.Refresh (172ms)
-				TypeCache.ScanAssembly (155ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (699ms)
+		AnalyzeDomain (336ms)
+			TypeCache.Refresh (279ms)
+				TypeCache.ScanAssembly (255ms)
+			ScanForSourceGeneratedMonoScriptInfo (40ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (969ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (520ms)
+		SetupLoadedEditorAssemblies (674ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (313ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (400ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 5.03 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 8.67 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5894 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 98 unused Assets / (423.6 KB). Loaded Objects now: 6355.
-Memory consumption went from 231.6 MB to 231.2 MB.
-Total: 4.841900 ms (FindLiveObjects: 0.523600 ms CreateObjectMapping: 0.566600 ms MarkObjects: 3.500000 ms  DeleteObjects: 0.249900 ms)
+Unloading 98 unused Assets / (421.7 KB). Loaded Objects now: 6355.
+Memory consumption went from 231.1 MB to 230.7 MB.
+Total: 7.199400 ms (FindLiveObjects: 0.680300 ms CreateObjectMapping: 0.989800 ms MarkObjects: 5.167100 ms  DeleteObjects: 0.360600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -190,3 +192,1735 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8e612f122cf605b1ca44face76bd936a -> 15aff65be1a5e539ea2906ccbf3d7fa9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.771 seconds
+Refreshing native plugins compatible for Editor in 8.48 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.984 seconds
+Domain Reload Profiling: 2749ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (432ms)
+		LoadAssemblies (532ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1984ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (824ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (478ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 145.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5739 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (391.7 KB). Loaded Objects now: 6373.
+Memory consumption went from 205.4 MB to 205.0 MB.
+Total: 8.240300 ms (FindLiveObjects: 1.148600 ms CreateObjectMapping: 0.756400 ms MarkObjects: 6.137200 ms  DeleteObjects: 0.196900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CheckPointSystem.cs: 1d2cc2772109e60c4e93c0276f0a1efa -> bef1baa16d4fab8267246df8430a1838
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PrevenirDispararPiso.cs: 59d80a2b1094cdf62cc3747ada9198e9 -> 2fd66ef05a4cd33cc9187d012d4ab138
+  custom:scripting/monoscript/fileName/ControlesPlayer.cs: db4526abc802f6485c21ff0dd4ac39f7 -> 6569c3f618dfebb598fe661d06bb2deb
+  custom:scripting/monoscript/fileName/GroundChecker.cs: 9e495d36eb66a2512047ecb11c443ce5 -> 094214972de2f9ae8609d799af581486
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Trampa.cs: 450cec0e3f467e483fd7cb53e71179dd -> b61e05d270a677076bc9f0424b88e4c6
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:scripting/monoscript/fileName/Disparar.cs: 0a43c418453254038385aa1a6c414a65 -> 3eb06369b071e93e96b0def42b4f3918
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DatosSalto.cs: 93b7daab12f1248eb99c7a82f080a880 -> abc1e206b70dbfe0b4d60e35043b6242
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LibreriaDeSonidos.cs: e172b214ba51cb12105adc5ec4329cc0 -> bc9cdfc155da97eb2b28c8d63239ef81
+  custom:scripting/monoscript/fileName/CheckPoint.cs: 323daabf785fc091151a8be7ba406319 -> 8c08e913e40ee19732a42b4cc94c4e58
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AnimacionesPlayer.cs: 23d9085d0ceb9ca235459fdf0d347fe5 -> 2b3a423c9f8af99e87172c27ac2a07cc
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpawnerSimple.cs: 711f43636d0f6162af159eb40001265e -> 4865950f678ab2cc778aca5bdb9099bb
+  custom:scripting/monoscript/fileName/SoundFXManager.cs: c0d97cc91703c20c254f0d382720ec5b -> b07681813a360cf64ff890f747694ce5
+  custom:scripting/monoscript/fileName/IntensidadLuzRandom.cs: 0c7d142d4e036080426e77009db1dfd4 -> 8774c896615d72d2dde2a7861dd5ea62
+  custom:scripting/monoscript/fileName/Proyectil.cs: 4273c9bfd57f7a9024aa24534f23fd2f -> b7c53721b84d8c3ac2fc196d65ff7cc4
+  custom:scripting/monoscript/fileName/SonidosGameObject.cs: c1c66f5f15378ab68626391bf51222cf -> bfe184710354c0e4c4e9337cdd25aaaa
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HpSystem.cs: bf48e767df42fc2e61d8c73e48fff453 -> 0452ecfff4c58ef36eb181c85f0c84b8
+  custom:scripting/monoscript/fileName/Damagable.cs: 6e1af44b9a0fb85d69b5961051331692 -> 8fcabc23302b5791dc08dbf8d809d0d7
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EventosAnimacion.cs: 2dce7f344e1f8e0d17b9ab9dc760dda2 -> 3a5f872c0762e7a5bbd3bdb14b8134ec
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.715 seconds
+Refreshing native plugins compatible for Editor in 7.21 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.972 seconds
+Domain Reload Profiling: 2681ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (392ms)
+		LoadAssemblies (469ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1972ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (852ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (505ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 10.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5739 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (391.9 KB). Loaded Objects now: 6390.
+Memory consumption went from 207.4 MB to 207.0 MB.
+Total: 15.188200 ms (FindLiveObjects: 1.558600 ms CreateObjectMapping: 5.400300 ms MarkObjects: 7.855000 ms  DeleteObjects: 0.372300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CheckPointSystem.cs: 1d2cc2772109e60c4e93c0276f0a1efa -> bef1baa16d4fab8267246df8430a1838
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PrevenirDispararPiso.cs: 59d80a2b1094cdf62cc3747ada9198e9 -> 2fd66ef05a4cd33cc9187d012d4ab138
+  custom:scripting/monoscript/fileName/ControlesPlayer.cs: db4526abc802f6485c21ff0dd4ac39f7 -> 6569c3f618dfebb598fe661d06bb2deb
+  custom:scripting/monoscript/fileName/GroundChecker.cs: 9e495d36eb66a2512047ecb11c443ce5 -> 094214972de2f9ae8609d799af581486
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Trampa.cs: 450cec0e3f467e483fd7cb53e71179dd -> b61e05d270a677076bc9f0424b88e4c6
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:scripting/monoscript/fileName/Disparar.cs: 0a43c418453254038385aa1a6c414a65 -> 3eb06369b071e93e96b0def42b4f3918
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DatosSalto.cs: 93b7daab12f1248eb99c7a82f080a880 -> abc1e206b70dbfe0b4d60e35043b6242
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LibreriaDeSonidos.cs: e172b214ba51cb12105adc5ec4329cc0 -> bc9cdfc155da97eb2b28c8d63239ef81
+  custom:scripting/monoscript/fileName/CheckPoint.cs: 323daabf785fc091151a8be7ba406319 -> 8c08e913e40ee19732a42b4cc94c4e58
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AnimacionesPlayer.cs: 23d9085d0ceb9ca235459fdf0d347fe5 -> 2b3a423c9f8af99e87172c27ac2a07cc
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpawnerSimple.cs: 711f43636d0f6162af159eb40001265e -> 4865950f678ab2cc778aca5bdb9099bb
+  custom:scripting/monoscript/fileName/SoundFXManager.cs: c0d97cc91703c20c254f0d382720ec5b -> b07681813a360cf64ff890f747694ce5
+  custom:scripting/monoscript/fileName/IntensidadLuzRandom.cs: 0c7d142d4e036080426e77009db1dfd4 -> 8774c896615d72d2dde2a7861dd5ea62
+  custom:scripting/monoscript/fileName/Proyectil.cs: 4273c9bfd57f7a9024aa24534f23fd2f -> b7c53721b84d8c3ac2fc196d65ff7cc4
+  custom:scripting/monoscript/fileName/SonidosGameObject.cs: c1c66f5f15378ab68626391bf51222cf -> bfe184710354c0e4c4e9337cdd25aaaa
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HpSystem.cs: bf48e767df42fc2e61d8c73e48fff453 -> 0452ecfff4c58ef36eb181c85f0c84b8
+  custom:scripting/monoscript/fileName/Damagable.cs: 6e1af44b9a0fb85d69b5961051331692 -> 8fcabc23302b5791dc08dbf8d809d0d7
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EventosAnimacion.cs: 2dce7f344e1f8e0d17b9ab9dc760dda2 -> 3a5f872c0762e7a5bbd3bdb14b8134ec
+========================================================================
+Received Import Request.
+  Time since last request: 2271.215372 seconds.
+  path: Assets/materiales/destelloAzul.mat
+  artifactKey: Guid(53b23b1502fee8149adaa767b766d879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/materiales/destelloAzul.mat using Guid(53b23b1502fee8149adaa767b766d879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26c099e3024bda5ad6bc4d08ef66701c') in 0.292338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Audios/Sound FX/ImpactosEnemigos/impactoEnemigo1.mp3
+  artifactKey: Guid(c484c2cde4cd3d44693004bb5135e740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audios/Sound FX/ImpactosEnemigos/impactoEnemigo1.mp3 using Guid(c484c2cde4cd3d44693004bb5135e740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'adfc406b604aa29ac03706ee01d82111') in 0.105286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Audios/Sound FX/Explosiones/explosion1.wav
+  artifactKey: Guid(0f77a6af59eef764683315924c989c7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audios/Sound FX/Explosiones/explosion1.wav using Guid(0f77a6af59eef764683315924c989c7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea5f122ca7c109e3a0d570789b16357f') in 0.088375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/ExplosionMuere.prefab
+  artifactKey: Guid(675b7dd2766d5854ab2b183c3a06da13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/ExplosionMuere.prefab using Guid(675b7dd2766d5854ab2b183c3a06da13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5462d8603eb690513df473b795431f14') in 0.127981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/materiales/explosionEnemigo.mat
+  artifactKey: Guid(c66b580fb1df9d7438d186b74d8fba49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/materiales/explosionEnemigo.mat using Guid(c66b580fb1df9d7438d186b74d8fba49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '057dda8146ceec6b4050ffec2d53e1a3') in 0.008342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/SampleScene/Global Volume Profile.asset
+  artifactKey: Guid(14bd3308d81725e40a2a008f88af07f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene/Global Volume Profile.asset using Guid(14bd3308d81725e40a2a008f88af07f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c74b0ced5c1f876dbf3646478f34bb5') in 0.025573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Settings/Scripts/SonidosGameObject.cs
+  artifactKey: Guid(2373386b39bf51847ac65d428d62ea7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/Scripts/SonidosGameObject.cs using Guid(2373386b39bf51847ac65d428d62ea7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6238d469b3a37508eb0e1ff8c5992d3') in 0.010771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Audios/Sound FX/Aterrizaje/aterrizaje1.wav
+  artifactKey: Guid(7e9189cc59f702146b216600c553fa2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audios/Sound FX/Aterrizaje/aterrizaje1.wav using Guid(7e9189cc59f702146b216600c553fa2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5bac3858497dc442834d916d3a8dc8c8') in 0.186729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Circle.png
+  artifactKey: Guid(10e0b49090c80814696518acdd908cee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Circle.png using Guid(10e0b49090c80814696518acdd908cee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26027ebb4c73ff3c77c58e6fa1f0885b') in 0.072548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Animaciones/Enemigo/hit.anim
+  artifactKey: Guid(90bb448e6beab4f4998285959c468635) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animaciones/Enemigo/hit.anim using Guid(90bb448e6beab4f4998285959c468635) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40958671803547cc04c4de639d3ba8d8') in 0.008235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Settings/UniversalRP.asset
+  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9c50389da657446702f9bb1eddfa2ad') in 0.038551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Audios/Sound FX/Salto/Salto1.wav
+  artifactKey: Guid(4431f52018d32894cb075b2d08377d6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audios/Sound FX/Salto/Salto1.wav using Guid(4431f52018d32894cb075b2d08377d6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f437b2fa6fbabd79865d1e608ab1b13') in 0.085092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Destello.prefab
+  artifactKey: Guid(40a08baf59463624fb1454e9247b5890) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Destello.prefab using Guid(40a08baf59463624fb1454e9247b5890) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a270b58069e6061243509e27c1aaa57e') in 0.081146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Audios/Librerias de Audio/Muertes.asset
+  artifactKey: Guid(c0ae76449513c9742bc8cd4dd78526c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audios/Librerias de Audio/Muertes.asset using Guid(c0ae76449513c9742bc8cd4dd78526c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbe044868146d3e129f30cdd742b6f44') in 0.020321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Settings/Scripts/HpSystem.cs
+  artifactKey: Guid(0061d50a836caad4cafb3bc51464f596) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/Scripts/HpSystem.cs using Guid(0061d50a836caad4cafb3bc51464f596) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c15dd3f94efc4f0df7b1b1389f33d3b7') in 0.005788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/IsometricDiamond.png
+  artifactKey: Guid(f5738aaf5e9a2c14a8be2e00847df98d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/IsometricDiamond.png using Guid(f5738aaf5e9a2c14a8be2e00847df98d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14ac35ce80d668492cf4f657ac888fdc') in 0.036789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Settings/Scripts/CheckPoint.cs
+  artifactKey: Guid(ddde82903d73dab4caed111f93d604b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/Scripts/CheckPoint.cs using Guid(ddde82903d73dab4caed111f93d604b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90842aa8601b784344a91b0a545a65a5') in 0.005646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Animaciones/Enemigo/EnemigoControllerAnim.controller
+  artifactKey: Guid(38071ea536f442449a73c797b6eb03e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animaciones/Enemigo/EnemigoControllerAnim.controller using Guid(38071ea536f442449a73c797b6eb03e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb80412fa5e4529efa664ef43dc8490c') in 0.007737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Audios/Sound FX/Splat/Splat1.wav
+  artifactKey: Guid(dd3d40a8fca24334b862eb8ed8a955ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audios/Sound FX/Splat/Splat1.wav using Guid(dd3d40a8fca24334b862eb8ed8a955ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6186dd8f9952c59a183021bf0ebea3c4') in 0.089081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Variables/Datos Salto.asset
+  artifactKey: Guid(4e62a03fcd0c68c4e8379c6af7637a58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Variables/Datos Salto.asset using Guid(4e62a03fcd0c68c4e8379c6af7637a58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4015141b3d9dca5e2707d82a9682bc8d') in 0.006079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0876e94ff8f6d83c0cdea0ac8f18e045') in 0.005346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites/HexagonFlatTop.png
+  artifactKey: Guid(b4c80dba6e39b80489b89b4774bd9994) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/HexagonFlatTop.png using Guid(b4c80dba6e39b80489b89b4774bd9994) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17365e28d89f5612520955a59c902a4a') in 0.034387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Audios/Librerias de Audio/ImpactosEnemigo.asset
+  artifactKey: Guid(1bb2d99d8a440f94885c12bb33a81a04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audios/Librerias de Audio/ImpactosEnemigo.asset using Guid(1bb2d99d8a440f94885c12bb33a81a04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc28f9b009ff1a332b2391fbe49bd751') in 0.015151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Settings/Scripts/SpawnerSimple.cs
+  artifactKey: Guid(43eb0e67fcf2de4469e1c70942cf06d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/Scripts/SpawnerSimple.cs using Guid(43eb0e67fcf2de4469e1c70942cf06d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b4a44cdd80eb2ab818a84950888df7a') in 0.007112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Audios/Sound FX/Disparos/disparo1.wav
+  artifactKey: Guid(fb8932fa1bb8ff7458e6703170fe4e58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audios/Sound FX/Disparos/disparo1.wav using Guid(fb8932fa1bb8ff7458e6703170fe4e58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c7b960b812189bec2953747735d90e8') in 0.104511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/9Sliced.png
+  artifactKey: Guid(f6958a8cfea748249845c048a80fb140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/9Sliced.png using Guid(f6958a8cfea748249845c048a80fb140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0cf08615042cedf6769ef68acdc98dd4') in 0.035978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Audios/Librerias de Audio/Disparos.asset
+  artifactKey: Guid(add9a8293453b584d83a6b260abd6892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audios/Librerias de Audio/Disparos.asset using Guid(add9a8293453b584d83a6b260abd6892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cea74c7d5a109ef8547eb211bc32bdb4') in 0.013012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Settings/Scripts/Trampa.cs
+  artifactKey: Guid(a14411a5c5cfed34b9b9a7415c087bdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/Scripts/Trampa.cs using Guid(a14411a5c5cfed34b9b9a7415c087bdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0297f24449a4999cd1d13eefa7b0b7c') in 0.005598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Square.png
+  artifactKey: Guid(1a6b91584a745c74794fc5f990b2c238) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Square.png using Guid(1a6b91584a745c74794fc5f990b2c238) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a0441fe8cf08af6b0258152294c663a') in 0.035114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Audios/Sound FX/Pasos/paso1.wav
+  artifactKey: Guid(449a4ea07a4e1444e9565422400a3f4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audios/Sound FX/Pasos/paso1.wav using Guid(449a4ea07a4e1444e9565422400a3f4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2319c70c5d91ef3d17228da37cbd1ee') in 0.076070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/triangulo.png
+  artifactKey: Guid(76789bb0be34d7b42912dd329dd658f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/triangulo.png using Guid(76789bb0be34d7b42912dd329dd658f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c1da89d486946b25ded3c84284b4798') in 0.034036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Bala.prefab
+  artifactKey: Guid(1b5272993e48ab549b294aa090b6b8f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Bala.prefab using Guid(1b5272993e48ab549b294aa090b6b8f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81b88d951426af105607f3ffe113c732') in 0.032725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefabs/chispas.prefab
+  artifactKey: Guid(29ea1bf29f8896d41bbc29f5b4c2a104) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/chispas.prefab using Guid(29ea1bf29f8896d41bbc29f5b4c2a104) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e45223544640e61fda826ccfa1b10774') in 0.063044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Enemigo.prefab
+  artifactKey: Guid(893a186aaad790e4b8cd2c548a7e1bd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Enemigo.prefab using Guid(893a186aaad790e4b8cd2c548a7e1bd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a67278779edc8d21cb31edc85c5a5ab') in 0.013052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Audios/Librerias de Audio/Impacto Bala.asset
+  artifactKey: Guid(21544e183eabece44b77c3284666b00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audios/Librerias de Audio/Impacto Bala.asset using Guid(21544e183eabece44b77c3284666b00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bd1d086312d221810660d0b39524c8f') in 0.008777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Audios/Sound FX/Pasos/paso2.wav
+  artifactKey: Guid(1bc226a0653cb53438ec58bbf645d2c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audios/Sound FX/Pasos/paso2.wav using Guid(1bc226a0653cb53438ec58bbf645d2c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f88483974c95fe4b0e73aadf9def206b') in 0.087154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animaciones/Player/disparo.anim
+  artifactKey: Guid(92d96e1a782f18e40a38deb2be77a821) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animaciones/Player/disparo.anim using Guid(92d96e1a782f18e40a38deb2be77a821) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9df3da8ca1ae37d4a3db0b7ff9f072a4') in 0.008680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.695243 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(2236734da068bf643b7e4896f760dcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(2236734da068bf643b7e4896f760dcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93c65a170a26eecd8cdab1f2ff4520c') in 0.016279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.223602 seconds.
+  path: Assets/Prefabs/chispas2.prefab
+  artifactKey: Guid(fe38aaa510b7f51438b3217225248fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/chispas2.prefab using Guid(fe38aaa510b7f51438b3217225248fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efda11ea8ea92d9255f4c3303098231e') in 0.548177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.741 seconds
+Refreshing native plugins compatible for Editor in 6.60 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.701 seconds
+Domain Reload Profiling: 2435ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (395ms)
+		LoadAssemblies (466ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1701ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (726ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (440ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 7.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5739 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (391.8 KB). Loaded Objects now: 6454.
+Memory consumption went from 209.2 MB to 208.8 MB.
+Total: 5.617100 ms (FindLiveObjects: 0.818400 ms CreateObjectMapping: 0.803900 ms MarkObjects: 3.836600 ms  DeleteObjects: 0.157200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CheckPointSystem.cs: 1d2cc2772109e60c4e93c0276f0a1efa -> bef1baa16d4fab8267246df8430a1838
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PrevenirDispararPiso.cs: 59d80a2b1094cdf62cc3747ada9198e9 -> 2fd66ef05a4cd33cc9187d012d4ab138
+  custom:scripting/monoscript/fileName/ControlesPlayer.cs: db4526abc802f6485c21ff0dd4ac39f7 -> 6569c3f618dfebb598fe661d06bb2deb
+  custom:scripting/monoscript/fileName/GroundChecker.cs: 9e495d36eb66a2512047ecb11c443ce5 -> 094214972de2f9ae8609d799af581486
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Trampa.cs: 450cec0e3f467e483fd7cb53e71179dd -> b61e05d270a677076bc9f0424b88e4c6
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:scripting/monoscript/fileName/Disparar.cs: 0a43c418453254038385aa1a6c414a65 -> 3eb06369b071e93e96b0def42b4f3918
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DatosSalto.cs: 93b7daab12f1248eb99c7a82f080a880 -> abc1e206b70dbfe0b4d60e35043b6242
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LibreriaDeSonidos.cs: e172b214ba51cb12105adc5ec4329cc0 -> bc9cdfc155da97eb2b28c8d63239ef81
+  custom:scripting/monoscript/fileName/CheckPoint.cs: 323daabf785fc091151a8be7ba406319 -> 8c08e913e40ee19732a42b4cc94c4e58
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AnimacionesPlayer.cs: 23d9085d0ceb9ca235459fdf0d347fe5 -> 2b3a423c9f8af99e87172c27ac2a07cc
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpawnerSimple.cs: 711f43636d0f6162af159eb40001265e -> 4865950f678ab2cc778aca5bdb9099bb
+  custom:scripting/monoscript/fileName/SoundFXManager.cs: c0d97cc91703c20c254f0d382720ec5b -> b07681813a360cf64ff890f747694ce5
+  custom:scripting/monoscript/fileName/IntensidadLuzRandom.cs: 0c7d142d4e036080426e77009db1dfd4 -> 8774c896615d72d2dde2a7861dd5ea62
+  custom:scripting/monoscript/fileName/Proyectil.cs: 4273c9bfd57f7a9024aa24534f23fd2f -> b7c53721b84d8c3ac2fc196d65ff7cc4
+  custom:scripting/monoscript/fileName/SonidosGameObject.cs: c1c66f5f15378ab68626391bf51222cf -> bfe184710354c0e4c4e9337cdd25aaaa
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HpSystem.cs: bf48e767df42fc2e61d8c73e48fff453 -> 0452ecfff4c58ef36eb181c85f0c84b8
+  custom:scripting/monoscript/fileName/Damagable.cs: 6e1af44b9a0fb85d69b5961051331692 -> 8fcabc23302b5791dc08dbf8d809d0d7
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EventosAnimacion.cs: 2dce7f344e1f8e0d17b9ab9dc760dda2 -> 3a5f872c0762e7a5bbd3bdb14b8134ec
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.606 seconds
+Refreshing native plugins compatible for Editor in 5.64 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.533 seconds
+Domain Reload Profiling: 2133ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (311ms)
+		LoadAssemblies (383ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1534ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (662ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (404ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 7.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5739 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (391.9 KB). Loaded Objects now: 6471.
+Memory consumption went from 211.0 MB to 210.6 MB.
+Total: 4.024500 ms (FindLiveObjects: 0.498100 ms CreateObjectMapping: 0.480800 ms MarkObjects: 2.896100 ms  DeleteObjects: 0.148600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CheckPointSystem.cs: 1d2cc2772109e60c4e93c0276f0a1efa -> bef1baa16d4fab8267246df8430a1838
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PrevenirDispararPiso.cs: 59d80a2b1094cdf62cc3747ada9198e9 -> 2fd66ef05a4cd33cc9187d012d4ab138
+  custom:scripting/monoscript/fileName/ControlesPlayer.cs: db4526abc802f6485c21ff0dd4ac39f7 -> 6569c3f618dfebb598fe661d06bb2deb
+  custom:scripting/monoscript/fileName/GroundChecker.cs: 9e495d36eb66a2512047ecb11c443ce5 -> 094214972de2f9ae8609d799af581486
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Trampa.cs: 450cec0e3f467e483fd7cb53e71179dd -> b61e05d270a677076bc9f0424b88e4c6
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:scripting/monoscript/fileName/Disparar.cs: 0a43c418453254038385aa1a6c414a65 -> 3eb06369b071e93e96b0def42b4f3918
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DatosSalto.cs: 93b7daab12f1248eb99c7a82f080a880 -> abc1e206b70dbfe0b4d60e35043b6242
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LibreriaDeSonidos.cs: e172b214ba51cb12105adc5ec4329cc0 -> bc9cdfc155da97eb2b28c8d63239ef81
+  custom:scripting/monoscript/fileName/CheckPoint.cs: 323daabf785fc091151a8be7ba406319 -> 8c08e913e40ee19732a42b4cc94c4e58
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AnimacionesPlayer.cs: 23d9085d0ceb9ca235459fdf0d347fe5 -> 2b3a423c9f8af99e87172c27ac2a07cc
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpawnerSimple.cs: 711f43636d0f6162af159eb40001265e -> 4865950f678ab2cc778aca5bdb9099bb
+  custom:scripting/monoscript/fileName/SoundFXManager.cs: c0d97cc91703c20c254f0d382720ec5b -> b07681813a360cf64ff890f747694ce5
+  custom:scripting/monoscript/fileName/IntensidadLuzRandom.cs: 0c7d142d4e036080426e77009db1dfd4 -> 8774c896615d72d2dde2a7861dd5ea62
+  custom:scripting/monoscript/fileName/Proyectil.cs: 4273c9bfd57f7a9024aa24534f23fd2f -> b7c53721b84d8c3ac2fc196d65ff7cc4
+  custom:scripting/monoscript/fileName/SonidosGameObject.cs: c1c66f5f15378ab68626391bf51222cf -> bfe184710354c0e4c4e9337cdd25aaaa
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HpSystem.cs: bf48e767df42fc2e61d8c73e48fff453 -> 0452ecfff4c58ef36eb181c85f0c84b8
+  custom:scripting/monoscript/fileName/Damagable.cs: 6e1af44b9a0fb85d69b5961051331692 -> 8fcabc23302b5791dc08dbf8d809d0d7
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EventosAnimacion.cs: 2dce7f344e1f8e0d17b9ab9dc760dda2 -> 3a5f872c0762e7a5bbd3bdb14b8134ec
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.724 seconds
+Refreshing native plugins compatible for Editor in 6.85 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.595 seconds
+Domain Reload Profiling: 2310ms
+	BeginReloadAssembly (239ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (378ms)
+		LoadAssemblies (458ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (64ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1595ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (628ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 11.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5739 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (391.9 KB). Loaded Objects now: 6488.
+Memory consumption went from 212.9 MB to 212.5 MB.
+Total: 5.492900 ms (FindLiveObjects: 0.909300 ms CreateObjectMapping: 0.731000 ms MarkObjects: 3.689400 ms  DeleteObjects: 0.161700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CheckPointSystem.cs: 1d2cc2772109e60c4e93c0276f0a1efa -> bef1baa16d4fab8267246df8430a1838
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PrevenirDispararPiso.cs: 59d80a2b1094cdf62cc3747ada9198e9 -> 2fd66ef05a4cd33cc9187d012d4ab138
+  custom:scripting/monoscript/fileName/ControlesPlayer.cs: db4526abc802f6485c21ff0dd4ac39f7 -> 6569c3f618dfebb598fe661d06bb2deb
+  custom:scripting/monoscript/fileName/GroundChecker.cs: 9e495d36eb66a2512047ecb11c443ce5 -> 094214972de2f9ae8609d799af581486
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Trampa.cs: 450cec0e3f467e483fd7cb53e71179dd -> b61e05d270a677076bc9f0424b88e4c6
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:scripting/monoscript/fileName/Disparar.cs: 0a43c418453254038385aa1a6c414a65 -> 3eb06369b071e93e96b0def42b4f3918
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DatosSalto.cs: 93b7daab12f1248eb99c7a82f080a880 -> abc1e206b70dbfe0b4d60e35043b6242
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LibreriaDeSonidos.cs: e172b214ba51cb12105adc5ec4329cc0 -> bc9cdfc155da97eb2b28c8d63239ef81
+  custom:scripting/monoscript/fileName/CheckPoint.cs: 323daabf785fc091151a8be7ba406319 -> 8c08e913e40ee19732a42b4cc94c4e58
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AnimacionesPlayer.cs: 23d9085d0ceb9ca235459fdf0d347fe5 -> 2b3a423c9f8af99e87172c27ac2a07cc
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpawnerSimple.cs: 711f43636d0f6162af159eb40001265e -> 4865950f678ab2cc778aca5bdb9099bb
+  custom:scripting/monoscript/fileName/SoundFXManager.cs: c0d97cc91703c20c254f0d382720ec5b -> b07681813a360cf64ff890f747694ce5
+  custom:scripting/monoscript/fileName/IntensidadLuzRandom.cs: 0c7d142d4e036080426e77009db1dfd4 -> 8774c896615d72d2dde2a7861dd5ea62
+  custom:scripting/monoscript/fileName/Proyectil.cs: 4273c9bfd57f7a9024aa24534f23fd2f -> b7c53721b84d8c3ac2fc196d65ff7cc4
+  custom:scripting/monoscript/fileName/SonidosGameObject.cs: c1c66f5f15378ab68626391bf51222cf -> bfe184710354c0e4c4e9337cdd25aaaa
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HpSystem.cs: bf48e767df42fc2e61d8c73e48fff453 -> 0452ecfff4c58ef36eb181c85f0c84b8
+  custom:scripting/monoscript/fileName/Damagable.cs: 6e1af44b9a0fb85d69b5961051331692 -> 8fcabc23302b5791dc08dbf8d809d0d7
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EventosAnimacion.cs: 2dce7f344e1f8e0d17b9ab9dc760dda2 -> 3a5f872c0762e7a5bbd3bdb14b8134ec
+========================================================================
+Received Import Request.
+  Time since last request: 222.472150 seconds.
+  path: Assets/Prefabs/Bala.prefab
+  artifactKey: Guid(1b5272993e48ab549b294aa090b6b8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bala.prefab using Guid(1b5272993e48ab549b294aa090b6b8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9df32ddf7119286366db4e12c512b2b') in 0.237800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.688 seconds
+Refreshing native plugins compatible for Editor in 8.37 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.910 seconds
+Domain Reload Profiling: 2593ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (377ms)
+		LoadAssemblies (425ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (57ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1910ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (802ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (64ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (452ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 14.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5739 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (392.0 KB). Loaded Objects now: 6542.
+Memory consumption went from 215.1 MB to 214.7 MB.
+Total: 8.342700 ms (FindLiveObjects: 1.080000 ms CreateObjectMapping: 1.065900 ms MarkObjects: 5.914300 ms  DeleteObjects: 0.279600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CheckPointSystem.cs: 1d2cc2772109e60c4e93c0276f0a1efa -> bef1baa16d4fab8267246df8430a1838
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PrevenirDispararPiso.cs: 59d80a2b1094cdf62cc3747ada9198e9 -> 2fd66ef05a4cd33cc9187d012d4ab138
+  custom:scripting/monoscript/fileName/ControlesPlayer.cs: db4526abc802f6485c21ff0dd4ac39f7 -> 6569c3f618dfebb598fe661d06bb2deb
+  custom:scripting/monoscript/fileName/GroundChecker.cs: 9e495d36eb66a2512047ecb11c443ce5 -> 094214972de2f9ae8609d799af581486
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Trampa.cs: 450cec0e3f467e483fd7cb53e71179dd -> b61e05d270a677076bc9f0424b88e4c6
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:scripting/monoscript/fileName/Disparar.cs: 0a43c418453254038385aa1a6c414a65 -> 3eb06369b071e93e96b0def42b4f3918
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DatosSalto.cs: 93b7daab12f1248eb99c7a82f080a880 -> abc1e206b70dbfe0b4d60e35043b6242
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LibreriaDeSonidos.cs: e172b214ba51cb12105adc5ec4329cc0 -> bc9cdfc155da97eb2b28c8d63239ef81
+  custom:scripting/monoscript/fileName/CheckPoint.cs: 323daabf785fc091151a8be7ba406319 -> 8c08e913e40ee19732a42b4cc94c4e58
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AnimacionesPlayer.cs: 23d9085d0ceb9ca235459fdf0d347fe5 -> 2b3a423c9f8af99e87172c27ac2a07cc
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpawnerSimple.cs: 711f43636d0f6162af159eb40001265e -> 4865950f678ab2cc778aca5bdb9099bb
+  custom:scripting/monoscript/fileName/SoundFXManager.cs: c0d97cc91703c20c254f0d382720ec5b -> b07681813a360cf64ff890f747694ce5
+  custom:scripting/monoscript/fileName/IntensidadLuzRandom.cs: 0c7d142d4e036080426e77009db1dfd4 -> 8774c896615d72d2dde2a7861dd5ea62
+  custom:scripting/monoscript/fileName/Proyectil.cs: 4273c9bfd57f7a9024aa24534f23fd2f -> b7c53721b84d8c3ac2fc196d65ff7cc4
+  custom:scripting/monoscript/fileName/SonidosGameObject.cs: c1c66f5f15378ab68626391bf51222cf -> bfe184710354c0e4c4e9337cdd25aaaa
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HpSystem.cs: bf48e767df42fc2e61d8c73e48fff453 -> 0452ecfff4c58ef36eb181c85f0c84b8
+  custom:scripting/monoscript/fileName/Damagable.cs: 6e1af44b9a0fb85d69b5961051331692 -> 8fcabc23302b5791dc08dbf8d809d0d7
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EventosAnimacion.cs: 2dce7f344e1f8e0d17b9ab9dc760dda2 -> 3a5f872c0762e7a5bbd3bdb14b8134ec
+========================================================================
+Received Import Request.
+  Time since last request: 387.092815 seconds.
+  path: Assets/materiales/explosionEnemigo.mat
+  artifactKey: Guid(c66b580fb1df9d7438d186b74d8fba49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/explosionEnemigo.mat using Guid(c66b580fb1df9d7438d186b74d8fba49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed24cd88c7027d76ad1a7823a2a8628') in 0.320052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/materiales/chispas.mat
+  artifactKey: Guid(6f92b8127de4e20459a6a553af57355c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/chispas.mat using Guid(6f92b8127de4e20459a6a553af57355c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd83cac1ace493d44b0be969a7f3551b') in 0.018065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/materiales/noFriccion.physicsMaterial2D
+  artifactKey: Guid(12edc54dc3c96bf499e6d4f0003d5929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/noFriccion.physicsMaterial2D using Guid(12edc54dc3c96bf499e6d4f0003d5929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ee118cf19b5d6343c1bbaf365b9435') in 0.000958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Bala.prefab
+  artifactKey: Guid(1b5272993e48ab549b294aa090b6b8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bala.prefab using Guid(1b5272993e48ab549b294aa090b6b8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027d57e7f7869a267f0ef8b64d077590') in 0.041715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/materiales/destelloAzul.mat
+  artifactKey: Guid(53b23b1502fee8149adaa767b766d879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/destelloAzul.mat using Guid(53b23b1502fee8149adaa767b766d879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e24bb1f4dcfe2437a92836a7151ca0e') in 0.015896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.677 seconds
+Refreshing native plugins compatible for Editor in 5.66 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.443 seconds
+Domain Reload Profiling: 2113ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (377ms)
+		LoadAssemblies (411ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (63ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1443ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (575ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (338ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5869 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (392.1 KB). Loaded Objects now: 6759.
+Memory consumption went from 219.9 MB to 219.5 MB.
+Total: 3.876000 ms (FindLiveObjects: 0.489600 ms CreateObjectMapping: 0.513500 ms MarkObjects: 2.754100 ms  DeleteObjects: 0.117600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CheckPointSystem.cs: 1d2cc2772109e60c4e93c0276f0a1efa -> bef1baa16d4fab8267246df8430a1838
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PrevenirDispararPiso.cs: 59d80a2b1094cdf62cc3747ada9198e9 -> 2fd66ef05a4cd33cc9187d012d4ab138
+  custom:scripting/monoscript/fileName/ControlesPlayer.cs: db4526abc802f6485c21ff0dd4ac39f7 -> 6569c3f618dfebb598fe661d06bb2deb
+  custom:scripting/monoscript/fileName/GroundChecker.cs: 9e495d36eb66a2512047ecb11c443ce5 -> 094214972de2f9ae8609d799af581486
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Trampa.cs: 450cec0e3f467e483fd7cb53e71179dd -> b61e05d270a677076bc9f0424b88e4c6
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:scripting/monoscript/fileName/Disparar.cs: 0a43c418453254038385aa1a6c414a65 -> 3eb06369b071e93e96b0def42b4f3918
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DatosSalto.cs: 93b7daab12f1248eb99c7a82f080a880 -> abc1e206b70dbfe0b4d60e35043b6242
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LibreriaDeSonidos.cs: e172b214ba51cb12105adc5ec4329cc0 -> bc9cdfc155da97eb2b28c8d63239ef81
+  custom:scripting/monoscript/fileName/CheckPoint.cs: 323daabf785fc091151a8be7ba406319 -> 8c08e913e40ee19732a42b4cc94c4e58
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AnimacionesPlayer.cs: 23d9085d0ceb9ca235459fdf0d347fe5 -> 2b3a423c9f8af99e87172c27ac2a07cc
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpawnerSimple.cs: 711f43636d0f6162af159eb40001265e -> 4865950f678ab2cc778aca5bdb9099bb
+  custom:scripting/monoscript/fileName/SoundFXManager.cs: c0d97cc91703c20c254f0d382720ec5b -> b07681813a360cf64ff890f747694ce5
+  custom:scripting/monoscript/fileName/IntensidadLuzRandom.cs: 0c7d142d4e036080426e77009db1dfd4 -> 8774c896615d72d2dde2a7861dd5ea62
+  custom:scripting/monoscript/fileName/Proyectil.cs: 4273c9bfd57f7a9024aa24534f23fd2f -> b7c53721b84d8c3ac2fc196d65ff7cc4
+  custom:scripting/monoscript/fileName/SonidosGameObject.cs: c1c66f5f15378ab68626391bf51222cf -> bfe184710354c0e4c4e9337cdd25aaaa
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HpSystem.cs: bf48e767df42fc2e61d8c73e48fff453 -> 0452ecfff4c58ef36eb181c85f0c84b8
+  custom:scripting/monoscript/fileName/Damagable.cs: 6e1af44b9a0fb85d69b5961051331692 -> 8fcabc23302b5791dc08dbf8d809d0d7
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EventosAnimacion.cs: 2dce7f344e1f8e0d17b9ab9dc760dda2 -> 3a5f872c0762e7a5bbd3bdb14b8134ec
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.613 seconds
+Refreshing native plugins compatible for Editor in 6.20 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.620 seconds
+Domain Reload Profiling: 2227ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (402ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1621ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (644ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (373ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5869 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (392.0 KB). Loaded Objects now: 6776.
+Memory consumption went from 221.8 MB to 221.4 MB.
+Total: 4.028000 ms (FindLiveObjects: 0.499500 ms CreateObjectMapping: 0.530700 ms MarkObjects: 2.852800 ms  DeleteObjects: 0.144100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CheckPointSystem.cs: 1d2cc2772109e60c4e93c0276f0a1efa -> bef1baa16d4fab8267246df8430a1838
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PrevenirDispararPiso.cs: 59d80a2b1094cdf62cc3747ada9198e9 -> 2fd66ef05a4cd33cc9187d012d4ab138
+  custom:scripting/monoscript/fileName/ControlesPlayer.cs: db4526abc802f6485c21ff0dd4ac39f7 -> 6569c3f618dfebb598fe661d06bb2deb
+  custom:scripting/monoscript/fileName/GroundChecker.cs: 9e495d36eb66a2512047ecb11c443ce5 -> 094214972de2f9ae8609d799af581486
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Trampa.cs: 450cec0e3f467e483fd7cb53e71179dd -> b61e05d270a677076bc9f0424b88e4c6
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:scripting/monoscript/fileName/Disparar.cs: 0a43c418453254038385aa1a6c414a65 -> 3eb06369b071e93e96b0def42b4f3918
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DatosSalto.cs: 93b7daab12f1248eb99c7a82f080a880 -> abc1e206b70dbfe0b4d60e35043b6242
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LibreriaDeSonidos.cs: e172b214ba51cb12105adc5ec4329cc0 -> bc9cdfc155da97eb2b28c8d63239ef81
+  custom:scripting/monoscript/fileName/CheckPoint.cs: 323daabf785fc091151a8be7ba406319 -> 8c08e913e40ee19732a42b4cc94c4e58
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AnimacionesPlayer.cs: 23d9085d0ceb9ca235459fdf0d347fe5 -> 2b3a423c9f8af99e87172c27ac2a07cc
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpawnerSimple.cs: 711f43636d0f6162af159eb40001265e -> 4865950f678ab2cc778aca5bdb9099bb
+  custom:scripting/monoscript/fileName/SoundFXManager.cs: c0d97cc91703c20c254f0d382720ec5b -> b07681813a360cf64ff890f747694ce5
+  custom:scripting/monoscript/fileName/IntensidadLuzRandom.cs: 0c7d142d4e036080426e77009db1dfd4 -> 8774c896615d72d2dde2a7861dd5ea62
+  custom:scripting/monoscript/fileName/Proyectil.cs: 4273c9bfd57f7a9024aa24534f23fd2f -> b7c53721b84d8c3ac2fc196d65ff7cc4
+  custom:scripting/monoscript/fileName/SonidosGameObject.cs: c1c66f5f15378ab68626391bf51222cf -> bfe184710354c0e4c4e9337cdd25aaaa
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HpSystem.cs: bf48e767df42fc2e61d8c73e48fff453 -> 0452ecfff4c58ef36eb181c85f0c84b8
+  custom:scripting/monoscript/fileName/Damagable.cs: 6e1af44b9a0fb85d69b5961051331692 -> 8fcabc23302b5791dc08dbf8d809d0d7
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EventosAnimacion.cs: 2dce7f344e1f8e0d17b9ab9dc760dda2 -> 3a5f872c0762e7a5bbd3bdb14b8134ec
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.611 seconds
+Refreshing native plugins compatible for Editor in 5.88 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.579 seconds
+Domain Reload Profiling: 2183ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (322ms)
+		LoadAssemblies (395ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1579ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (618ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 8.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5869 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (392.0 KB). Loaded Objects now: 6793.
+Memory consumption went from 223.7 MB to 223.3 MB.
+Total: 3.972900 ms (FindLiveObjects: 0.570600 ms CreateObjectMapping: 0.586600 ms MarkObjects: 2.708700 ms  DeleteObjects: 0.106000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CheckPointSystem.cs: 1d2cc2772109e60c4e93c0276f0a1efa -> bef1baa16d4fab8267246df8430a1838
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PrevenirDispararPiso.cs: 59d80a2b1094cdf62cc3747ada9198e9 -> 2fd66ef05a4cd33cc9187d012d4ab138
+  custom:scripting/monoscript/fileName/ControlesPlayer.cs: db4526abc802f6485c21ff0dd4ac39f7 -> 6569c3f618dfebb598fe661d06bb2deb
+  custom:scripting/monoscript/fileName/GroundChecker.cs: 9e495d36eb66a2512047ecb11c443ce5 -> 094214972de2f9ae8609d799af581486
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Trampa.cs: 450cec0e3f467e483fd7cb53e71179dd -> b61e05d270a677076bc9f0424b88e4c6
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:scripting/monoscript/fileName/Disparar.cs: 0a43c418453254038385aa1a6c414a65 -> 3eb06369b071e93e96b0def42b4f3918
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DatosSalto.cs: 93b7daab12f1248eb99c7a82f080a880 -> abc1e206b70dbfe0b4d60e35043b6242
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LibreriaDeSonidos.cs: e172b214ba51cb12105adc5ec4329cc0 -> bc9cdfc155da97eb2b28c8d63239ef81
+  custom:scripting/monoscript/fileName/CheckPoint.cs: 323daabf785fc091151a8be7ba406319 -> 8c08e913e40ee19732a42b4cc94c4e58
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AnimacionesPlayer.cs: 23d9085d0ceb9ca235459fdf0d347fe5 -> 2b3a423c9f8af99e87172c27ac2a07cc
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpawnerSimple.cs: 711f43636d0f6162af159eb40001265e -> 4865950f678ab2cc778aca5bdb9099bb
+  custom:scripting/monoscript/fileName/SoundFXManager.cs: c0d97cc91703c20c254f0d382720ec5b -> b07681813a360cf64ff890f747694ce5
+  custom:scripting/monoscript/fileName/IntensidadLuzRandom.cs: 0c7d142d4e036080426e77009db1dfd4 -> 8774c896615d72d2dde2a7861dd5ea62
+  custom:scripting/monoscript/fileName/Proyectil.cs: 4273c9bfd57f7a9024aa24534f23fd2f -> b7c53721b84d8c3ac2fc196d65ff7cc4
+  custom:scripting/monoscript/fileName/SonidosGameObject.cs: c1c66f5f15378ab68626391bf51222cf -> bfe184710354c0e4c4e9337cdd25aaaa
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HpSystem.cs: bf48e767df42fc2e61d8c73e48fff453 -> 0452ecfff4c58ef36eb181c85f0c84b8
+  custom:scripting/monoscript/fileName/Damagable.cs: 6e1af44b9a0fb85d69b5961051331692 -> 8fcabc23302b5791dc08dbf8d809d0d7
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EventosAnimacion.cs: 2dce7f344e1f8e0d17b9ab9dc760dda2 -> 3a5f872c0762e7a5bbd3bdb14b8134ec
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.638 seconds
+Refreshing native plugins compatible for Editor in 6.02 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.588 seconds
+Domain Reload Profiling: 2220ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (388ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1589ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (575ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5870 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (392.1 KB). Loaded Objects now: 6811.
+Memory consumption went from 225.7 MB to 225.3 MB.
+Total: 4.150400 ms (FindLiveObjects: 0.535900 ms CreateObjectMapping: 0.834800 ms MarkObjects: 2.667700 ms  DeleteObjects: 0.110700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CheckPointSystem.cs: 1d2cc2772109e60c4e93c0276f0a1efa -> bef1baa16d4fab8267246df8430a1838
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PrevenirDispararPiso.cs: 59d80a2b1094cdf62cc3747ada9198e9 -> 2fd66ef05a4cd33cc9187d012d4ab138
+  custom:scripting/monoscript/fileName/ControlesPlayer.cs: db4526abc802f6485c21ff0dd4ac39f7 -> 6569c3f618dfebb598fe661d06bb2deb
+  custom:scripting/monoscript/fileName/GroundChecker.cs: 9e495d36eb66a2512047ecb11c443ce5 -> 094214972de2f9ae8609d799af581486
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Trampa.cs: 450cec0e3f467e483fd7cb53e71179dd -> b61e05d270a677076bc9f0424b88e4c6
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:scripting/monoscript/fileName/Disparar.cs: 0a43c418453254038385aa1a6c414a65 -> 3eb06369b071e93e96b0def42b4f3918
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DatosSalto.cs: 93b7daab12f1248eb99c7a82f080a880 -> abc1e206b70dbfe0b4d60e35043b6242
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LibreriaDeSonidos.cs: e172b214ba51cb12105adc5ec4329cc0 -> bc9cdfc155da97eb2b28c8d63239ef81
+  custom:scripting/monoscript/fileName/CheckPoint.cs: 323daabf785fc091151a8be7ba406319 -> 8c08e913e40ee19732a42b4cc94c4e58
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AnimacionesPlayer.cs: 23d9085d0ceb9ca235459fdf0d347fe5 -> 2b3a423c9f8af99e87172c27ac2a07cc
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpawnerSimple.cs: 711f43636d0f6162af159eb40001265e -> 4865950f678ab2cc778aca5bdb9099bb
+  custom:scripting/monoscript/fileName/SoundFXManager.cs: c0d97cc91703c20c254f0d382720ec5b -> b07681813a360cf64ff890f747694ce5
+  custom:scripting/monoscript/fileName/IntensidadLuzRandom.cs: 0c7d142d4e036080426e77009db1dfd4 -> 8774c896615d72d2dde2a7861dd5ea62
+  custom:scripting/monoscript/fileName/Proyectil.cs: 4273c9bfd57f7a9024aa24534f23fd2f -> b7c53721b84d8c3ac2fc196d65ff7cc4
+  custom:scripting/monoscript/fileName/SonidosGameObject.cs: c1c66f5f15378ab68626391bf51222cf -> bfe184710354c0e4c4e9337cdd25aaaa
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HpSystem.cs: bf48e767df42fc2e61d8c73e48fff453 -> 0452ecfff4c58ef36eb181c85f0c84b8
+  custom:scripting/monoscript/fileName/Damagable.cs: 6e1af44b9a0fb85d69b5961051331692 -> 8fcabc23302b5791dc08dbf8d809d0d7
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EventosAnimacion.cs: 2dce7f344e1f8e0d17b9ab9dc760dda2 -> 3a5f872c0762e7a5bbd3bdb14b8134ec
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.757 seconds
+Refreshing native plugins compatible for Editor in 5.93 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.560 seconds
+Domain Reload Profiling: 2310ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (412ms)
+		LoadAssemblies (461ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (51ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1561ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (581ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5870 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (392.1 KB). Loaded Objects now: 6828.
+Memory consumption went from 227.6 MB to 227.2 MB.
+Total: 3.836100 ms (FindLiveObjects: 0.474000 ms CreateObjectMapping: 0.449900 ms MarkObjects: 2.804900 ms  DeleteObjects: 0.106500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CheckPointSystem.cs: 1d2cc2772109e60c4e93c0276f0a1efa -> bef1baa16d4fab8267246df8430a1838
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PrevenirDispararPiso.cs: 59d80a2b1094cdf62cc3747ada9198e9 -> 2fd66ef05a4cd33cc9187d012d4ab138
+  custom:scripting/monoscript/fileName/ControlesPlayer.cs: db4526abc802f6485c21ff0dd4ac39f7 -> 6569c3f618dfebb598fe661d06bb2deb
+  custom:scripting/monoscript/fileName/GroundChecker.cs: 9e495d36eb66a2512047ecb11c443ce5 -> 094214972de2f9ae8609d799af581486
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Trampa.cs: 450cec0e3f467e483fd7cb53e71179dd -> b61e05d270a677076bc9f0424b88e4c6
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:scripting/monoscript/fileName/Disparar.cs: 0a43c418453254038385aa1a6c414a65 -> 3eb06369b071e93e96b0def42b4f3918
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DatosSalto.cs: 93b7daab12f1248eb99c7a82f080a880 -> abc1e206b70dbfe0b4d60e35043b6242
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LibreriaDeSonidos.cs: e172b214ba51cb12105adc5ec4329cc0 -> bc9cdfc155da97eb2b28c8d63239ef81
+  custom:scripting/monoscript/fileName/CheckPoint.cs: 323daabf785fc091151a8be7ba406319 -> 8c08e913e40ee19732a42b4cc94c4e58
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AnimacionesPlayer.cs: 23d9085d0ceb9ca235459fdf0d347fe5 -> 2b3a423c9f8af99e87172c27ac2a07cc
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpawnerSimple.cs: 711f43636d0f6162af159eb40001265e -> 4865950f678ab2cc778aca5bdb9099bb
+  custom:scripting/monoscript/fileName/SoundFXManager.cs: c0d97cc91703c20c254f0d382720ec5b -> b07681813a360cf64ff890f747694ce5
+  custom:scripting/monoscript/fileName/IntensidadLuzRandom.cs: 0c7d142d4e036080426e77009db1dfd4 -> 8774c896615d72d2dde2a7861dd5ea62
+  custom:scripting/monoscript/fileName/Proyectil.cs: 4273c9bfd57f7a9024aa24534f23fd2f -> b7c53721b84d8c3ac2fc196d65ff7cc4
+  custom:scripting/monoscript/fileName/SonidosGameObject.cs: c1c66f5f15378ab68626391bf51222cf -> bfe184710354c0e4c4e9337cdd25aaaa
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HpSystem.cs: bf48e767df42fc2e61d8c73e48fff453 -> 0452ecfff4c58ef36eb181c85f0c84b8
+  custom:scripting/monoscript/fileName/Damagable.cs: 6e1af44b9a0fb85d69b5961051331692 -> 8fcabc23302b5791dc08dbf8d809d0d7
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EventosAnimacion.cs: 2dce7f344e1f8e0d17b9ab9dc760dda2 -> 3a5f872c0762e7a5bbd3bdb14b8134ec
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.687 seconds
+Refreshing native plugins compatible for Editor in 7.69 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.495 seconds
+Domain Reload Profiling: 2176ms
+	BeginReloadAssembly (229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (366ms)
+		LoadAssemblies (406ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (55ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1495ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (613ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (369ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 10.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5870 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (392.2 KB). Loaded Objects now: 6845.
+Memory consumption went from 229.5 MB to 229.2 MB.
+Total: 37.751700 ms (FindLiveObjects: 2.133700 ms CreateObjectMapping: 3.527800 ms MarkObjects: 30.811100 ms  DeleteObjects: 1.276100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CheckPointSystem.cs: 1d2cc2772109e60c4e93c0276f0a1efa -> bef1baa16d4fab8267246df8430a1838
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PrevenirDispararPiso.cs: 59d80a2b1094cdf62cc3747ada9198e9 -> 2fd66ef05a4cd33cc9187d012d4ab138
+  custom:scripting/monoscript/fileName/ControlesPlayer.cs: db4526abc802f6485c21ff0dd4ac39f7 -> 6569c3f618dfebb598fe661d06bb2deb
+  custom:scripting/monoscript/fileName/GroundChecker.cs: 9e495d36eb66a2512047ecb11c443ce5 -> 094214972de2f9ae8609d799af581486
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Trampa.cs: 450cec0e3f467e483fd7cb53e71179dd -> b61e05d270a677076bc9f0424b88e4c6
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:scripting/monoscript/fileName/Disparar.cs: 0a43c418453254038385aa1a6c414a65 -> 3eb06369b071e93e96b0def42b4f3918
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DatosSalto.cs: 93b7daab12f1248eb99c7a82f080a880 -> abc1e206b70dbfe0b4d60e35043b6242
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LibreriaDeSonidos.cs: e172b214ba51cb12105adc5ec4329cc0 -> bc9cdfc155da97eb2b28c8d63239ef81
+  custom:scripting/monoscript/fileName/CheckPoint.cs: 323daabf785fc091151a8be7ba406319 -> 8c08e913e40ee19732a42b4cc94c4e58
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AnimacionesPlayer.cs: 23d9085d0ceb9ca235459fdf0d347fe5 -> 2b3a423c9f8af99e87172c27ac2a07cc
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpawnerSimple.cs: 711f43636d0f6162af159eb40001265e -> 4865950f678ab2cc778aca5bdb9099bb
+  custom:scripting/monoscript/fileName/SoundFXManager.cs: c0d97cc91703c20c254f0d382720ec5b -> b07681813a360cf64ff890f747694ce5
+  custom:scripting/monoscript/fileName/IntensidadLuzRandom.cs: 0c7d142d4e036080426e77009db1dfd4 -> 8774c896615d72d2dde2a7861dd5ea62
+  custom:scripting/monoscript/fileName/Proyectil.cs: 4273c9bfd57f7a9024aa24534f23fd2f -> b7c53721b84d8c3ac2fc196d65ff7cc4
+  custom:scripting/monoscript/fileName/SonidosGameObject.cs: c1c66f5f15378ab68626391bf51222cf -> bfe184710354c0e4c4e9337cdd25aaaa
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HpSystem.cs: bf48e767df42fc2e61d8c73e48fff453 -> 0452ecfff4c58ef36eb181c85f0c84b8
+  custom:scripting/monoscript/fileName/Damagable.cs: 6e1af44b9a0fb85d69b5961051331692 -> 8fcabc23302b5791dc08dbf8d809d0d7
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EventosAnimacion.cs: 2dce7f344e1f8e0d17b9ab9dc760dda2 -> 3a5f872c0762e7a5bbd3bdb14b8134ec
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.636 seconds
+Refreshing native plugins compatible for Editor in 5.86 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.714 seconds
+Domain Reload Profiling: 2344ms
+	BeginReloadAssembly (192ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (341ms)
+		LoadAssemblies (413ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1715ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (656ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (385ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 8.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5870 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (392.3 KB). Loaded Objects now: 6862.
+Memory consumption went from 231.5 MB to 231.1 MB.
+Total: 4.076100 ms (FindLiveObjects: 0.546400 ms CreateObjectMapping: 0.534800 ms MarkObjects: 2.873300 ms  DeleteObjects: 0.120600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CheckPointSystem.cs: 1d2cc2772109e60c4e93c0276f0a1efa -> bef1baa16d4fab8267246df8430a1838
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PrevenirDispararPiso.cs: 59d80a2b1094cdf62cc3747ada9198e9 -> 2fd66ef05a4cd33cc9187d012d4ab138
+  custom:scripting/monoscript/fileName/ControlesPlayer.cs: db4526abc802f6485c21ff0dd4ac39f7 -> 6569c3f618dfebb598fe661d06bb2deb
+  custom:scripting/monoscript/fileName/GroundChecker.cs: 9e495d36eb66a2512047ecb11c443ce5 -> 094214972de2f9ae8609d799af581486
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Trampa.cs: 450cec0e3f467e483fd7cb53e71179dd -> b61e05d270a677076bc9f0424b88e4c6
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:scripting/monoscript/fileName/Disparar.cs: 0a43c418453254038385aa1a6c414a65 -> 3eb06369b071e93e96b0def42b4f3918
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DatosSalto.cs: 93b7daab12f1248eb99c7a82f080a880 -> abc1e206b70dbfe0b4d60e35043b6242
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LibreriaDeSonidos.cs: e172b214ba51cb12105adc5ec4329cc0 -> bc9cdfc155da97eb2b28c8d63239ef81
+  custom:scripting/monoscript/fileName/CheckPoint.cs: 323daabf785fc091151a8be7ba406319 -> 8c08e913e40ee19732a42b4cc94c4e58
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AnimacionesPlayer.cs: 23d9085d0ceb9ca235459fdf0d347fe5 -> 2b3a423c9f8af99e87172c27ac2a07cc
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpawnerSimple.cs: 711f43636d0f6162af159eb40001265e -> 4865950f678ab2cc778aca5bdb9099bb
+  custom:scripting/monoscript/fileName/SoundFXManager.cs: c0d97cc91703c20c254f0d382720ec5b -> b07681813a360cf64ff890f747694ce5
+  custom:scripting/monoscript/fileName/IntensidadLuzRandom.cs: 0c7d142d4e036080426e77009db1dfd4 -> 8774c896615d72d2dde2a7861dd5ea62
+  custom:scripting/monoscript/fileName/Proyectil.cs: 4273c9bfd57f7a9024aa24534f23fd2f -> b7c53721b84d8c3ac2fc196d65ff7cc4
+  custom:scripting/monoscript/fileName/SonidosGameObject.cs: c1c66f5f15378ab68626391bf51222cf -> bfe184710354c0e4c4e9337cdd25aaaa
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HpSystem.cs: bf48e767df42fc2e61d8c73e48fff453 -> 0452ecfff4c58ef36eb181c85f0c84b8
+  custom:scripting/monoscript/fileName/Damagable.cs: 6e1af44b9a0fb85d69b5961051331692 -> 8fcabc23302b5791dc08dbf8d809d0d7
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EventosAnimacion.cs: 2dce7f344e1f8e0d17b9ab9dc760dda2 -> 3a5f872c0762e7a5bbd3bdb14b8134ec
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.651 seconds
+Refreshing native plugins compatible for Editor in 6.61 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.518 seconds
+Domain Reload Profiling: 2162ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (413ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (61ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1518ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (559ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 7.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5870 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (392.2 KB). Loaded Objects now: 6879.
+Memory consumption went from 233.4 MB to 233.0 MB.
+Total: 4.164000 ms (FindLiveObjects: 0.497000 ms CreateObjectMapping: 0.463200 ms MarkObjects: 3.072300 ms  DeleteObjects: 0.130300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CheckPointSystem.cs: 1d2cc2772109e60c4e93c0276f0a1efa -> bef1baa16d4fab8267246df8430a1838
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PrevenirDispararPiso.cs: 59d80a2b1094cdf62cc3747ada9198e9 -> 2fd66ef05a4cd33cc9187d012d4ab138
+  custom:scripting/monoscript/fileName/ControlesPlayer.cs: db4526abc802f6485c21ff0dd4ac39f7 -> 6569c3f618dfebb598fe661d06bb2deb
+  custom:scripting/monoscript/fileName/GroundChecker.cs: 9e495d36eb66a2512047ecb11c443ce5 -> 094214972de2f9ae8609d799af581486
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Trampa.cs: 450cec0e3f467e483fd7cb53e71179dd -> b61e05d270a677076bc9f0424b88e4c6
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:scripting/monoscript/fileName/Disparar.cs: 0a43c418453254038385aa1a6c414a65 -> 3eb06369b071e93e96b0def42b4f3918
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DatosSalto.cs: 93b7daab12f1248eb99c7a82f080a880 -> abc1e206b70dbfe0b4d60e35043b6242
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LibreriaDeSonidos.cs: e172b214ba51cb12105adc5ec4329cc0 -> bc9cdfc155da97eb2b28c8d63239ef81
+  custom:scripting/monoscript/fileName/CheckPoint.cs: 323daabf785fc091151a8be7ba406319 -> 8c08e913e40ee19732a42b4cc94c4e58
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AnimacionesPlayer.cs: 23d9085d0ceb9ca235459fdf0d347fe5 -> 2b3a423c9f8af99e87172c27ac2a07cc
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpawnerSimple.cs: 711f43636d0f6162af159eb40001265e -> 4865950f678ab2cc778aca5bdb9099bb
+  custom:scripting/monoscript/fileName/SoundFXManager.cs: c0d97cc91703c20c254f0d382720ec5b -> b07681813a360cf64ff890f747694ce5
+  custom:scripting/monoscript/fileName/IntensidadLuzRandom.cs: 0c7d142d4e036080426e77009db1dfd4 -> 8774c896615d72d2dde2a7861dd5ea62
+  custom:scripting/monoscript/fileName/Proyectil.cs: 4273c9bfd57f7a9024aa24534f23fd2f -> b7c53721b84d8c3ac2fc196d65ff7cc4
+  custom:scripting/monoscript/fileName/SonidosGameObject.cs: c1c66f5f15378ab68626391bf51222cf -> bfe184710354c0e4c4e9337cdd25aaaa
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HpSystem.cs: bf48e767df42fc2e61d8c73e48fff453 -> 0452ecfff4c58ef36eb181c85f0c84b8
+  custom:scripting/monoscript/fileName/Damagable.cs: 6e1af44b9a0fb85d69b5961051331692 -> 8fcabc23302b5791dc08dbf8d809d0d7
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EventosAnimacion.cs: 2dce7f344e1f8e0d17b9ab9dc760dda2 -> 3a5f872c0762e7a5bbd3bdb14b8134ec
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.636 seconds
+Refreshing native plugins compatible for Editor in 5.74 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.449 seconds
+Domain Reload Profiling: 2079ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (357ms)
+		LoadAssemblies (386ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (63ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1449ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (558ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5870 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (391.7 KB). Loaded Objects now: 6896.
+Memory consumption went from 235.3 MB to 235.0 MB.
+Total: 3.958700 ms (FindLiveObjects: 0.508300 ms CreateObjectMapping: 0.469200 ms MarkObjects: 2.858600 ms  DeleteObjects: 0.121700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CheckPointSystem.cs: 1d2cc2772109e60c4e93c0276f0a1efa -> bef1baa16d4fab8267246df8430a1838
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PrevenirDispararPiso.cs: 59d80a2b1094cdf62cc3747ada9198e9 -> 2fd66ef05a4cd33cc9187d012d4ab138
+  custom:scripting/monoscript/fileName/ControlesPlayer.cs: db4526abc802f6485c21ff0dd4ac39f7 -> 6569c3f618dfebb598fe661d06bb2deb
+  custom:scripting/monoscript/fileName/GroundChecker.cs: 9e495d36eb66a2512047ecb11c443ce5 -> 094214972de2f9ae8609d799af581486
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Trampa.cs: 450cec0e3f467e483fd7cb53e71179dd -> b61e05d270a677076bc9f0424b88e4c6
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:scripting/monoscript/fileName/Disparar.cs: 0a43c418453254038385aa1a6c414a65 -> 3eb06369b071e93e96b0def42b4f3918
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DatosSalto.cs: 93b7daab12f1248eb99c7a82f080a880 -> abc1e206b70dbfe0b4d60e35043b6242
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LibreriaDeSonidos.cs: e172b214ba51cb12105adc5ec4329cc0 -> bc9cdfc155da97eb2b28c8d63239ef81
+  custom:scripting/monoscript/fileName/CheckPoint.cs: 323daabf785fc091151a8be7ba406319 -> 8c08e913e40ee19732a42b4cc94c4e58
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AnimacionesPlayer.cs: 23d9085d0ceb9ca235459fdf0d347fe5 -> 2b3a423c9f8af99e87172c27ac2a07cc
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpawnerSimple.cs: 711f43636d0f6162af159eb40001265e -> 4865950f678ab2cc778aca5bdb9099bb
+  custom:scripting/monoscript/fileName/SoundFXManager.cs: c0d97cc91703c20c254f0d382720ec5b -> b07681813a360cf64ff890f747694ce5
+  custom:scripting/monoscript/fileName/IntensidadLuzRandom.cs: 0c7d142d4e036080426e77009db1dfd4 -> 8774c896615d72d2dde2a7861dd5ea62
+  custom:scripting/monoscript/fileName/Proyectil.cs: 4273c9bfd57f7a9024aa24534f23fd2f -> b7c53721b84d8c3ac2fc196d65ff7cc4
+  custom:scripting/monoscript/fileName/SonidosGameObject.cs: c1c66f5f15378ab68626391bf51222cf -> bfe184710354c0e4c4e9337cdd25aaaa
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HpSystem.cs: bf48e767df42fc2e61d8c73e48fff453 -> 0452ecfff4c58ef36eb181c85f0c84b8
+  custom:scripting/monoscript/fileName/Damagable.cs: 6e1af44b9a0fb85d69b5961051331692 -> 8fcabc23302b5791dc08dbf8d809d0d7
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EventosAnimacion.cs: 2dce7f344e1f8e0d17b9ab9dc760dda2 -> 3a5f872c0762e7a5bbd3bdb14b8134ec
+========================================================================
+Received Import Request.
+  Time since last request: 6398.935495 seconds.
+  path: Assets/Sprites/Circle.png
+  artifactKey: Guid(10e0b49090c80814696518acdd908cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Circle.png using Guid(10e0b49090c80814696518acdd908cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5621b33330f9f4b9379235859e815f5d') in 0.151842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/triangulo.png
+  artifactKey: Guid(76789bb0be34d7b42912dd329dd658f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/triangulo.png using Guid(76789bb0be34d7b42912dd329dd658f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86202c62949ba146677e49bc16e8e3ce') in 0.030663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/HexagonFlatTop.png
+  artifactKey: Guid(b4c80dba6e39b80489b89b4774bd9994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/HexagonFlatTop.png using Guid(b4c80dba6e39b80489b89b4774bd9994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d06f00a8f1e4f6243c66ef4d5930fb4') in 0.021328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

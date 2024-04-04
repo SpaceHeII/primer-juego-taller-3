@@ -5,7 +5,7 @@ using UnityEngine;
 public class Proyectil : MonoBehaviour
 {
     public int damage;
-    public GameObject impactPrefab;
+    public GameObject impactPrefab,sangrePrefab;
     public float velocidadBala;
     RaycastHit2D hit;
     public Rigidbody2D rb2d;
@@ -36,7 +36,11 @@ public class Proyectil : MonoBehaviour
         if(hit.collider != null)
         {
             if (hit.transform.GetComponent<Damagable>() != null)
+            {
                 hit.transform.GetComponent<Damagable>().TakeDamage(damage);
+                //Instantiate(sangrePrefab,transform.position, Quaternion.identity);
+            }
+                
 
             if (impactPrefab)
                 Instantiate(impactPrefab, hit.point, Quaternion.identity);
@@ -54,6 +58,7 @@ public class Proyectil : MonoBehaviour
     {
         rb2d.velocity = transform.right * velocidadBala;
     }
+    
 
 
 
