@@ -27,15 +27,15 @@ public class EnemyAnimationController : MonoBehaviour
         if (bigColliders.Length > 0 && !playerDetected)
         {
             // Si hay al menos un collider de jugador detectado por la esfera grande y el jugador no ha sido detectado antes, activar la animación de lanzamiento de granada
+            playerDetected = true;
             animator.SetBool("LanzarGranada", true);
             StartCoroutine(LanzarConIntervalo());
-            playerDetected = true;
         }
         else if (bigColliders.Length == 0)
         {
             // Si no hay colliders de jugador detectados por la esfera grande, desactivar la animación de lanzamiento de granada y detener la corutina
-            animator.SetBool("LanzarGranada", false);
             playerDetected = false;
+            animator.SetBool("LanzarGranada", false);
             StopCoroutine(LanzarConIntervalo());
         }
 
@@ -51,6 +51,8 @@ public class EnemyAnimationController : MonoBehaviour
         {
             // Si no hay colliders de jugador detectados por la esfera pequeña, el jugador no está en la zona
             playerEntered = false;
+            // Detener la corutina cuando el jugador sale de la zona pequeña
+            StopCoroutine(LanzarConIntervalo());
         }
 
         // Determinar qué animación activar en función de las condiciones
@@ -59,17 +61,13 @@ public class EnemyAnimationController : MonoBehaviour
             // Si el jugador está en la zona de la esfera pequeña, activar la animación "Escondido"
             animator.SetBool("Escondido", true);
         }
-        else if (playerDetected)
-        {
-            // Si el jugador está detectado por la esfera grande pero no está en la zona de la esfera pequeña, activar la animación "LanzarGranada"
-            animator.SetBool("Escondido", false);
-        }
         else
         {
-            // Si el jugador no está detectado por la esfera grande ni está en la zona de la esfera pequeña, activar la animación "Escondido"
-            animator.SetBool("Escondido", true);
+            // Si el jugador no está en la zona de la esfera pequeña, desactivar la animación "Escondido"
+            animator.SetBool("Escondido", false);
         }
     }
+
     IEnumerator LanzarConIntervalo()
     {
         while (true)
@@ -110,4 +108,5 @@ public class EnemyAnimationController : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, smallDetectionRadius);
     }
 }
+
 

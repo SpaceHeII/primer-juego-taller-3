@@ -4389,6 +4389,7 @@ GameObject:
   - component: {fileID: 1896942639}
   - component: {fileID: 1896942638}
   - component: {fileID: 1896942637}
+  - component: {fileID: 1896942641}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -4450,9 +4451,9 @@ MonoBehaviour:
   - "Una vez que est\xE9s ah\xED, tendras que plantar una bomba..."
   - para asi acabar de una vez con esta tortura!!
   - confio en ti...
-  - ....
-  pressesToLoadScene: 7
-  sceneToLoad: Map1
+  - (Presiona Tab Para seguir)
+  pressesToLoadScene: 4000
+  sceneToLoad: 0
 --- !u!114 &1896942639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4550,6 +4551,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1896942635}
   m_CullTransparentMesh: 1
+--- !u!114 &1896942641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896942635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e078565f26f83c4ea40755de9add49c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teclaParaCambio: 9
+  nombreDeLaEscenaACargar: Map1
 --- !u!1 &1947168983
 GameObject:
   m_ObjectHideFlags: 0

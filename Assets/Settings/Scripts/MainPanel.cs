@@ -36,6 +36,7 @@ public class MainPanel : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
+        Debug.Log("Salió del Juego");
     }
     public void SetMute()
     {

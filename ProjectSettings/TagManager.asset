@@ -11,6 +11,7 @@ TagManager:
   - Shield
   - EnemigoExplota
   - GranadaEnemigo
+  - Pinchos
   layers:
   - Default
   - TransparentFX

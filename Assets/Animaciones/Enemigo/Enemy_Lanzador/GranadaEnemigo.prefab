@@ -283,7 +283,7 @@ Transform:
   m_GameObject: {fileID: 4676044503204563463}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.03785, y: 4.0781746, z: 0}
+  m_LocalPosition: {x: -1.94, y: 3.85, z: 0}
   m_LocalScale: {x: 0.35477, y: 0.35477, z: 0.35477}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -462,6 +462,6 @@ MonoBehaviour:
   explosionRadius: 0
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   explosionSound: {fileID: 0}
   volume: 0
