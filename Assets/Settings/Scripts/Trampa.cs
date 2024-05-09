@@ -4,12 +4,19 @@ using UnityEngine;
 
 public class Trampa : MonoBehaviour
 {
+    private PlayerLives playerLives;
+    private void Start()
+    {
+        playerLives = FindObjectOfType<PlayerLives>(); // Encontrar el componente PlayerLives en la escena
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
         {
             print("lava!");
             collision.transform.position = CheckPointSystem.instance.UltimaPos;
+            playerLives.PlayerTransportedOrHitTrap();
         }
     }
 }
+

@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class CollisionSystem : MonoBehaviour
 {
     public UnityEvent onEnter, onStay, onExit;
-    public string tag;
+    public string collisionTag;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

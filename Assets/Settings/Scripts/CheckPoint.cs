@@ -12,10 +12,12 @@ public class CheckPoint : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
             anim.Play("checkpointPaso");
             CheckPointSystem.instance.ActualizarUltimaPos(transform.position);
         }
     }
 }
+
+

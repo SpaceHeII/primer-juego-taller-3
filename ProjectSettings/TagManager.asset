@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Piso
   - Lava
+  - "PruebaDa\xF1o"
+  - Enemigo
+  - Shield
+  - EnemigoExplota
+  - GranadaEnemigo
   layers:
   - Default
   - TransparentFX
@@ -14,8 +19,8 @@ TagManager:
   - Water
   - UI
   - Piso
-  - 
-  - 
+  - Items
+  - Player
   - 
   - 
   - 
